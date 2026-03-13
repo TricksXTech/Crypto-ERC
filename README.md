@@ -41,6 +41,7 @@ GET /build.php
 
 ```json
 {
+  "status":"success",
   "address": "0x1234567890abcdef...",
   "private_key": "abcdef123456...",
   "mnemonic": "apple banana river moon ..."
