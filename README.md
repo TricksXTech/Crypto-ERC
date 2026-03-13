@@ -60,12 +60,13 @@ Returns the balance of a wallet address.
 
 | Parameter | Type   | Description             |
 | --------- | ------ | ----------------------- |
+| chain     | string | Chainn name to check    |
 | address   | string | Wallet address to check |
 
 ### Example Request
 
 ```
-GET /balance.php?address=0x1234567890abcdef
+GET /balance.php?chain=bnb&address=0x1234567890abcdef
 ```
 
 ### Example Response
