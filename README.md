@@ -60,7 +60,7 @@ Returns the balance of a wallet address.
 
 | Parameter | Type   | Description             |
 | --------- | ------ | ----------------------- |
-| chain     | string | Chainn name to check    |
+| chain     | string | Chain name to check     |
 | address   | string | Wallet address to check |
 
 ### Example Request
@@ -90,15 +90,16 @@ Transfers crypto from one wallet to another using the **private key of the sende
 
 | Parameter   | Type   | Description             |
 | ----------- | ------ | ----------------------- |
+| chain       | string | Chain name to send      |
 | from        | string | Sender wallet address   |
-| private_key | string | Sender private key      |
 | to          | string | Receiver wallet address |
+| key         | string | Sender private key      |
 | amount      | number | Amount to send          |
 
 ### Example Request
 
 ```
-GET /send.php?from=0x1234567890abcdef&private_key=abcdef123456&to=0x987654321&amount=0.1
+GET /send.php?from=0x1234567890abcdef&to=0x987654321&key=abcdef123456&amount=0.1
 ```
 
 ### Example Response
