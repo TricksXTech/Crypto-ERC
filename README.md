@@ -107,6 +107,7 @@ GET /send.php?from=0x1234567890abcdef&to=0x987654321&key=abcdef123456&amount=0.1
 ```json
 {
   "status": "success",
+  "chain": "bnb",
   "from": "0x1234567890abcdef",
   "to": "0x987654321",
   "amount": "0.1",
