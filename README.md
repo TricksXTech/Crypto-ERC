@@ -121,6 +121,7 @@ GET /send.php?from=0x1234567890abcdef&to=0x987654321&key=abcdef123456&amount=0.1
 
 * PHP **7.4+**
 * Apache / Nginx web server
+* Works on cPanel ( ls )
 * Blockchain RPC endpoint
 
 ---
